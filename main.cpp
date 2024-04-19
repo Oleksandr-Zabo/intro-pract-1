@@ -3,11 +3,10 @@
 using namespace std;
 int main()
 {
-	
 
-	SetConsoleCP(CP_UTF8);
-	SetConsoleOutputCP(CP_UTF8);
 
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 
 	cout << "Як умру, то поховайте" <<endl;
 	cout << "Мене на могилі," << endl;
