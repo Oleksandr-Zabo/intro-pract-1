@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <windows.h> 
 using namespace std;
 int main()
@@ -9,12 +9,12 @@ int main()
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hConsole, 0x07);
 
-	cout << "Ïðîäàì êâ³òè." << endl;
-	cout << "Âèä: Ô³àëêà.\n" << endl;
+	cout << "ÐŸÑ€Ð¾Ð´Ð°Ð¼ ÐºÐ²Ñ–Ñ‚Ð¸." << endl;
+	cout << "Ð’Ð¸Ð´: Ð¤Ñ–Ð°Ð»ÐºÐ°.\n" << endl;
 
-	cout << "(...)Ô³àëêà – ÷è íå íàéïîïóëÿðí³øà ê³ìíàòíà êâ³òêà. \nÄëÿ ô³àëêè ï³ä³éäóòü â³êíà, \nÿê³ \"äèâëÿòüñÿ\" íà ï³âí³÷íèé ñõ³ä, \nï³âí³÷ òà ï³âí³÷íèé çàõ³ä." << endl;
+	cout << "(...)Ð¤Ñ–Ð°Ð»ÐºÐ° â€“ Ñ‡Ð¸ Ð½Ðµ Ð½Ð°Ð¹Ð¿Ð¾Ð¿ÑƒÐ»ÑÑ€Ð½Ñ–ÑˆÐ° ÐºÑ–Ð¼Ð½Ð°Ñ‚Ð½Ð° ÐºÐ²Ñ–Ñ‚ÐºÐ°. \nÐ”Ð»Ñ Ñ„Ñ–Ð°Ð»ÐºÐ¸ Ð¿Ñ–Ð´Ñ–Ð¹Ð´ÑƒÑ‚ÑŒ Ð²Ñ–ÐºÐ½Ð°, \nÑÐºÑ– \"Ð´Ð¸Ð²Ð»ÑÑ‚ÑŒÑÑ\" Ð½Ð° Ð¿Ñ–Ð²Ð½Ñ–Ñ‡Ð½Ð¸Ð¹ ÑÑ…Ñ–Ð´, \nÐ¿Ñ–Ð²Ð½Ñ–Ñ‡ Ñ‚Ð° Ð¿Ñ–Ð²Ð½Ñ–Ñ‡Ð½Ð¸Ð¹ Ð·Ð°Ñ…Ñ–Ð´." << endl;
 
-	cout << "\nÒåë.: 222-22-22" << endl;
+	cout << "\nÐ¢ÐµÐ».: 222-22-22" << endl;
 
 	cout <<"222\t";
 	cout <<"|\t";
@@ -43,7 +43,7 @@ int main()
 	SetConsoleTextAttribute(hConsole, 0x07);
 	cout << "|\n";
 
-	cout << "³ ò.ä."<<endl;
+	cout << "Ñ– Ñ‚.Ð´."<<endl;
 
 	system("pause");
 	return 0;
