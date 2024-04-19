@@ -1,22 +1,23 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <windows.h> 
 using namespace std;
 int main()
 {
 	
 
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
+	SetConsoleCP(CP_UTF8);
+	SetConsoleOutputCP(CP_UTF8);
 
-	cout << "ßê óìðó, òî ïîõîâàéòå" <<endl;
-	cout << "Ìåíå íà ìîãèë³," << endl;
-	cout << "Ñåðåä ñòåïó øèðîêîãî," << endl;
-	cout << "Íà Âêðà¿í³ ìèë³é," << endl;
-	cout << "Ùîá ëàíè øèðîêîïîë³," << endl;
-	cout << "² Äí³ïðî, ³ êðó÷³" << endl;
-	cout << "Áóëî âèäíî, áóëî ÷óòè," << endl;
-	cout << "ßê ðåâå ðåâó÷èé." << endl;
-	cout << "\nÒàðàñ Øåâ÷åíêî\n" << endl;
+
+	cout << "Ð¯Ðº ÑƒÐ¼Ñ€Ñƒ, Ñ‚Ð¾ Ð¿Ð¾Ñ…Ð¾Ð²Ð°Ð¹Ñ‚Ðµ" <<endl;
+	cout << "ÐœÐµÐ½Ðµ Ð½Ð° Ð¼Ð¾Ð³Ð¸Ð»Ñ–," << endl;
+	cout << "Ð¡ÐµÑ€ÐµÐ´ ÑÑ‚ÐµÐ¿Ñƒ ÑˆÐ¸Ñ€Ð¾ÐºÐ¾Ð³Ð¾," << endl;
+	cout << "ÐÐ° Ð’ÐºÑ€Ð°Ñ—Ð½Ñ– Ð¼Ð¸Ð»Ñ–Ð¹," << endl;
+	cout << "Ð©Ð¾Ð± Ð»Ð°Ð½Ð¸ ÑˆÐ¸Ñ€Ð¾ÐºÐ¾Ð¿Ð¾Ð»Ñ–," << endl;
+	cout << "Ð† Ð”Ð½Ñ–Ð¿Ñ€Ð¾, Ñ– ÐºÑ€ÑƒÑ‡Ñ–" << endl;
+	cout << "Ð‘ÑƒÐ»Ð¾ Ð²Ð¸Ð´Ð½Ð¾, Ð±ÑƒÐ»Ð¾ Ñ‡ÑƒÑ‚Ð¸," << endl;
+	cout << "Ð¯Ðº Ñ€ÐµÐ²Ðµ Ñ€ÐµÐ²ÑƒÑ‡Ð¸Ð¹." << endl;
+	cout << "\nÐ¢Ð°Ñ€Ð°Ñ Ð¨ÐµÐ²Ñ‡ÐµÐ½ÐºÐ¾\n" << endl;
 	system("pause");
 	return 0;
 }
