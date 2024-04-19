@@ -3,9 +3,13 @@
 using namespace std;
 int main()
 {
+
+
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
-	cout << "/Bjarne Stroustrup/" << endl;
+	SetConsoleTextAttribute(hConsole, 0x07);
+	cout << "Продам квіти." << endl;
+	cout << "Вид Фіалка" << endl;
 	system("pause");
 	return 0;
 }
